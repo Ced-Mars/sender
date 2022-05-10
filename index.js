@@ -370,13 +370,15 @@ try {
             channel.publish(exchange, key2, Buffer.from(JSON.stringify(start)));
             channel.publish(exchange, key1, Buffer.from(JSON.stringify(data)));
             console.log(" [x] Sent %s:'%s'", key1, JSON.stringify(data));
-            var j =0;
+            var j = 0;
             var i = 0;
             const interval = setInterval(function() {
               if(i < data2.length){
                 if(j < data2[i].length){
+                  console.log("sent :" + JSON.stringify(data2[i][j]));
                   channel.publish(exchange, key2, Buffer.from(JSON.stringify(data2[i][j])));
                   if(j == 0){
+                    console.log("sent :" + JSON.stringify(data2[i][0]))
                     channel.publish(exchange, key3, Buffer.from(JSON.stringify(data2[i][0])));
                   }
                   j++;
@@ -389,9 +391,9 @@ try {
                 clearInterval(interval);
                 channel.publish(exchange, key2, Buffer.from(JSON.stringify(end)));
               }
-            }, 1000);
+            }, 3000);
 
-          }else if (msg.fields.routingKey == key4){
+          }else{
             console.log("Message reçu en réponse action utilisateur : ", JSON.parse(msg.content));
           }
         }, {
