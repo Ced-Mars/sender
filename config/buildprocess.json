@@ -1,0 +1,938 @@
+{
+    "buildProcess": [
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "go to load/unload tool position",
+            "type": "MOVE.STATION.TOOL",
+            "uid": "6269688b785425674c1f0db1"
+        },
+        {
+            "assets": [
+                {
+                    "description": "robot operator",
+                    "interface": "HMI",
+                    "uid": "human"
+                },
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "load flange drilling effector",
+            "type": "LOAD.EFFECTOR",
+            "uid": "6269688b785425674c1f0db9"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "station movement to rail Y+763 at flange-FRONT-LEFT position",
+            "type": "MOVE.STATION.WORK",
+            "uid": "626968a6785425674c1f11ad"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "approach movement to rail Y+763 at flange-FRONT-LEFT position",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "626968a6785425674c1f11af"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "probe kff_y+763 reference",
+            "type": "WORK.PROBE",
+            "uid": "626968a6785425674c1f11b5"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "clearance movement from rail Y+763 at flange-FRONT-LEFT position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "626968a6785425674c1f11b1"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "station movement to rail Y+763 at flange-REAR-LEFT position",
+            "type": "MOVE.STATION.WORK",
+            "uid": "626968a7785425674c1f11e7"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "approach movement to rail Y+763 at flange-REAR-LEFT position",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "626968a7785425674c1f11e9"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "probe kfr_y+763 reference",
+            "type": "WORK.PROBE",
+            "uid": "626968a7785425674c1f11ef"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "clearance movement from rail Y+763 at flange-REAR-LEFT position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "626968a7785425674c1f11eb"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "station movement to rail Y-254 at flange-FRONT-LEFT position",
+            "type": "MOVE.STATION.WORK",
+            "uid": "626968a2785425674c1f1115"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "approach movement to rail Y-254 at flange-FRONT-LEFT position",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "626968a2785425674c1f1117"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "probe kff_y-254 reference",
+            "type": "WORK.PROBE",
+            "uid": "626968a2785425674c1f111d"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "clearance movement from rail Y-254 at flange-FRONT-LEFT position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "626968a2785425674c1f1119"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "station movement to rail Y-254 at flange-REAR-LEFT position",
+            "type": "MOVE.STATION.WORK",
+            "uid": "626968a3785425674c1f1137"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "approach movement to rail Y-254 at flange-REAR-LEFT position",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "626968a3785425674c1f1139"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "probe kfr_y-254 reference",
+            "type": "WORK.PROBE",
+            "uid": "626968a3785425674c1f113f"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "clearance movement from rail Y-254 at flange-REAR-LEFT position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "626968a3785425674c1f113b"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "station movement to rail Y+763 at flange-FRONT-RIGHT position",
+            "type": "MOVE.STATION.WORK",
+            "uid": "626968a5785425674c1f118f"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "approach movement to rail Y+763 at flange-FRONT-RIGHT position",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "626968a5785425674c1f1191"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.206 of rail Y+763 at flange-FRONT-RIGHT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a5785425674c1f1195"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.207 of rail Y+763 at flange-FRONT-RIGHT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a5785425674c1f1199"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.208 of rail Y+763 at flange-FRONT-RIGHT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a5785425674c1f119d"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.209 of rail Y+763 at flange-FRONT-RIGHT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a5785425674c1f11a1"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-05.285 of rail Y+763 at flange-FRONT-RIGHT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a5785425674c1f11a5"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-05.286 of rail Y+763 at flange-FRONT-RIGHT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a6785425674c1f11a9"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "clearance movement from rail Y+763 at flange-FRONT-RIGHT position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "626968a5785425674c1f1193"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "station movement to rail Y+763 at flange-FRONT-LEFT position",
+            "type": "MOVE.STATION.WORK",
+            "uid": "626968a6785425674c1f11ad"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "approach movement to rail Y+763 at flange-FRONT-LEFT position",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "626968a6785425674c1f11af"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.210 of rail Y+763 at flange-FRONT-LEFT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a6785425674c1f11b3"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.211 of rail Y+763 at flange-FRONT-LEFT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a6785425674c1f11b9"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.212 of rail Y+763 at flange-FRONT-LEFT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a6785425674c1f11bd"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.238 of rail Y+763 at flange-FRONT-LEFT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a6785425674c1f11c1"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-05.283 of rail Y+763 at flange-FRONT-LEFT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a6785425674c1f11c5"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-05.284 of rail Y+763 at flange-FRONT-LEFT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a6785425674c1f11c9"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "clearance movement from rail Y+763 at flange-FRONT-LEFT position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "626968a6785425674c1f11b1"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "station movement to rail Y+763 at flange-REAR-RIGHT position",
+            "type": "MOVE.STATION.WORK",
+            "uid": "626968a6785425674c1f11cd"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "approach movement to rail Y+763 at flange-REAR-RIGHT position",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "626968a6785425674c1f11cf"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.205 of rail Y+763 at flange-REAR-RIGHT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a7785425674c1f11d3"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.204 of rail Y+763 at flange-REAR-RIGHT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a7785425674c1f11d7"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.203 of rail Y+763 at flange-REAR-RIGHT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a7785425674c1f11db"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.202 of rail Y+763 at flange-REAR-RIGHT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a7785425674c1f11df"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.201 of rail Y+763 at flange-REAR-RIGHT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a7785425674c1f11e3"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "clearance movement from rail Y+763 at flange-REAR-RIGHT position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "626968a6785425674c1f11d1"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "station movement to rail Y+763 at flange-REAR-LEFT position",
+            "type": "MOVE.STATION.WORK",
+            "uid": "626968a7785425674c1f11e7"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "approach movement to rail Y+763 at flange-REAR-LEFT position",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "626968a7785425674c1f11e9"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.196 of rail Y+763 at flange-REAR-LEFT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a7785425674c1f11ed"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.197 of rail Y+763 at flange-REAR-LEFT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a7785425674c1f11f3"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.198 of rail Y+763 at flange-REAR-LEFT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a7785425674c1f11f7"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.199 of rail Y+763 at flange-REAR-LEFT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a8785425674c1f11fb"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-04.200 of rail Y+763 at flange-REAR-LEFT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a8785425674c1f11ff"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "clearance movement from rail Y+763 at flange-REAR-LEFT position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "626968a7785425674c1f11eb"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "station movement to rail Y-254 at flange-FRONT-RIGHT position",
+            "type": "MOVE.STATION.WORK",
+            "uid": "626968a1785425674c1f1107"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "approach movement to rail Y-254 at flange-FRONT-RIGHT position",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "626968a1785425674c1f1109"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-03.33 of rail Y-254 at flange-FRONT-RIGHT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a1785425674c1f110d"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-03.34 of rail Y-254 at flange-FRONT-RIGHT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a1785425674c1f1111"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "clearance movement from rail Y-254 at flange-FRONT-RIGHT position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "626968a1785425674c1f110b"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "station movement to rail Y-254 at flange-FRONT-LEFT position",
+            "type": "MOVE.STATION.WORK",
+            "uid": "626968a2785425674c1f1115"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "approach movement to rail Y-254 at flange-FRONT-LEFT position",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "626968a2785425674c1f1117"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-03.38 of rail Y-254 at flange-FRONT-LEFT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a2785425674c1f111b"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-03.37 of rail Y-254 at flange-FRONT-LEFT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a2785425674c1f1121"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "clearance movement from rail Y-254 at flange-FRONT-LEFT position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "626968a2785425674c1f1119"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "station movement to rail Y-254 at flange-REAR-RIGHT position",
+            "type": "MOVE.STATION.WORK",
+            "uid": "626968a2785425674c1f1125"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "approach movement to rail Y-254 at flange-REAR-RIGHT position",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "626968a2785425674c1f1127"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-03.18 of rail Y-254 at flange-REAR-RIGHT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a2785425674c1f112b"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-03.19 of rail Y-254 at flange-REAR-RIGHT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a2785425674c1f112f"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-03.20 of rail Y-254 at flange-REAR-RIGHT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a2785425674c1f1133"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "clearance movement from rail Y-254 at flange-REAR-RIGHT position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "626968a2785425674c1f1129"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "station movement to rail Y-254 at flange-REAR-LEFT position",
+            "type": "MOVE.STATION.WORK",
+            "uid": "626968a3785425674c1f1137"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "approach movement to rail Y-254 at flange-REAR-LEFT position",
+            "type": "MOVE.TCP.APPROACH",
+            "uid": "626968a3785425674c1f1139"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-03.15 of rail Y-254 at flange-REAR-LEFT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a3785425674c1f113d"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-03.16 of rail Y-254 at flange-REAR-LEFT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a3785425674c1f1143"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "work movement to location of assembly ASNA2392-3-03.17 of rail Y-254 at flange-REAR-LEFT position",
+            "type": "MOVE.TCP.WORK",
+            "uid": "626968a3785425674c1f1147"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "clearance movement from rail Y-254 at flange-REAR-LEFT position",
+            "type": "MOVE.TCP.CLEARANCE",
+            "uid": "626968a3785425674c1f113b"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "go to load/unload tool position",
+            "type": "MOVE.STATION.TOOL",
+            "uid": "6269688b785425674c1f0db1"
+        },
+        {
+            "assets": [
+                {
+                    "description": "robot operator",
+                    "interface": "HMI",
+                    "uid": "human"
+                },
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "unload flange C drilling effector",
+            "type": "UNLOAD.EFFECTOR",
+            "uid": "6269688b785425674c1f0db7"
+        },
+        {
+            "assets": [
+                {
+                    "description": "rail splicing robotic cell",
+                    "interface": "PROXY",
+                    "uid": "mars"
+                }
+            ],
+            "description": "go on home position",
+            "type": "MOVE.STATION.HOME",
+            "uid": "6269688a785425674c1f0daf"
+        }
+    ]
+}

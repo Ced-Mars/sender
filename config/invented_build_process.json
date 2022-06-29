@@ -1,0 +1,406 @@
+{
+    "buildProcess":[
+      {
+        "assets": [
+          {
+              "description": "robot operator",
+              "interface": "HMI",
+              "uid": "human"
+          },
+          {
+              "description": "rail splicing robotic cell",
+              "interface": "PROXY",
+              "uid": "mars"
+          }
+        ],
+        "description": "load",
+        "uid": "1176a0e7ef6dc9aef1e9930a",
+        "type": "LOAD.EFFECTOR"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "go on home position",
+        "uid": "2176a0e7ef6dc9aef1e9930a",
+        "type": "MOVE.STATION.WORK"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "go on home position",
+        "uid": "3176a0e7ef6dc9aef1e9930a",
+        "type": "MOVE.ARM.APPROACH"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "go on home position",
+        "uid": "4176a0e7ef6dc9aef1e9930a",
+        "type": "WORK.DRILL"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "go on home position",
+        "uid": "5176a0e7ef6dc9aef1e9930a",
+        "type": "MOVE.ARM.CLEARANCE"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "go on home position",
+        "uid": "6176a0e7ef6dc9aef1e9930a",
+        "type": "MOVE.STATION.WORK"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "go on home position",
+        "uid": "7176a0e7ef6dc9aef1e9930a",
+        "type": "MOVE.ARM.APPROACH"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "go on home position",
+        "uid": "8176a0e7ef6dc9aef1e9930a",
+        "type": "WORK.DRILL"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "go on home position",
+        "uid": "9176a0e7ef6dc9aef1e9930a",
+        "type": "MOVE.ARM.CLEARANCE"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "station movement on rail 6",
+        "uid": "6276a0e8ef6dc9aef1e993a1",
+        "type": "MOVE.STATION.TOOL"
+      },
+      {
+        "assets": [
+          {
+              "description": "robot operator",
+              "interface": "HMI",
+              "uid": "human"
+          },
+          {
+              "description": "rail splicing robotic cell",
+              "interface": "PROXY",
+              "uid": "mars"
+          }
+        ],
+        "description": "unload",
+        "uid": "1176b0e7ef6dc9aef1e9930a",
+        "type": "UNLOAD.EFFECTOR"
+      },
+      {
+        "assets": [
+          {
+              "description": "robot operator",
+              "interface": "HMI",
+              "uid": "human"
+          },
+          {
+              "description": "rail splicing robotic cell",
+              "interface": "PROXY",
+              "uid": "mars"
+          }
+      ],
+        "description": "load",
+        "uid": "2176b0e7ef6dc9aef1e9930a",
+        "type": "LOAD.EFFECTOR"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "2go on home position",
+        "uid": "3176b0e7ef6dc9aef1e9930a",
+        "type": "MOVE.STATION.WORK"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "2go on home position",
+        "uid": "4176b0e7ef6dc9aef1e9930a",
+        "type": "MOVE.ARM.APPROACH"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "go on home position",
+        "uid": "5176b0e7ef6dc9aef1e9930a",
+        "type": "WORK.FASTEN"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "go on home position",
+        "uid": "6176b0e7ef6dc9aef1e9930a",
+        "type": "MOVE.ARM.CLEARANCE"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "go on home position",
+        "uid": "7176b0e7ef6dc9aef1e9930a",
+        "type": "MOVE.STATION.WORK"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "go on home position",
+        "uid": "8176b0e7ef6dc9aef1e9930a",
+        "type": "MOVE.ARM.APPROACH"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "go on home position",
+        "uid": "9176b0e7ef6dc9aef1e9930a",
+        "type": "MOVE.ARM.CLEARANCE"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+        "description": "station movement on rail 6",
+        "uid": "6276b0e8ef6dc9aef1e993a1",
+        "type": "MOVE.STATION.TOOL"
+      },
+      {
+        "assets": [
+          {
+              "description": "robot operator",
+              "interface": "HMI",
+              "uid": "human"
+          },
+          {
+              "description": "rail splicing robotic cell",
+              "interface": "PROXY",
+              "uid": "mars"
+          }
+      ],
+        "description": "unload",
+        "uid": "1176c0e7ef6dc9aef1e9930a",
+        "type": "UNLOAD.EFFECTOR"
+      },
+      {
+        "assets": [
+          {
+              "description": "robot operator",
+              "interface": "HMI",
+              "uid": "human"
+          },
+          {
+              "description": "rail splicing robotic cell",
+              "interface": "PROXY",
+              "uid": "mars"
+          }
+      ],
+      "description": "load",
+      "uid": "2176c0e7ef6dc9aef1e9930a",
+      "type": "LOAD.EFFECTOR"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+      "description": "1go on home position",
+      "uid": "3176c0e7ef6dc9aef1e9930a",
+      "type": "MOVE.STATION.WORK"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+      "description": "1go on home position",
+      "uid": "4176c0e7ef6dc9aef1e9930a",
+      "type": "MOVE.ARM.APPROACH"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+      "description": "go on home position",
+      "uid": "5176c0e7ef6dc9aef1e9930a",
+      "type": "WORK.FASTEN"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+      "description": "go on home position",
+      "uid": "6176c0e7ef6dc9aef1e9930a",
+      "type": "WORK.FASTEN"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+      "description": "go on home position",
+      "uid": "7176c0e7ef6dc9aef1e9930a",
+      "type": "WORK.FASTEN"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+      "description": "go on home position",
+      "uid": "8176c0e7ef6dc9aef1e9930a",
+      "type": "MOVE.ARM.CLEARANCE"
+      },
+      {
+        "assets":[
+          {
+            "description": "rail splicing robotic cell",
+            "interface": "PROXY",
+            "uid": "mars"
+          }
+        ],
+      "description": "go on home position",
+      "uid": "9176c0e7ef6dc9aef1e9930a",
+      "type": "MOVE.STATION.TOOL"
+      },
+      {
+        "assets": [
+          {
+              "description": "robot operator",
+              "interface": "HMI",
+              "uid": "human"
+          },
+          {
+              "description": "rail splicing robotic cell",
+              "interface": "PROXY",
+              "uid": "mars"
+          }
+        ],
+        "description": "unload",
+        "uid": "6276c0e8ef6dc9aef1e993a1",
+        "type": "UNLOAD.EFFECTOR"
+      },
+      {
+        "assets": [
+            {
+                "description": "rail splicing robotic cell",
+                "interface": "PROXY",
+                "uid": "mars"
+            }
+        ],
+        "description": "go on home position",
+        "type": "MOVE.STATION.HOME",
+        "uid": "6269688a785425674c1f0daf"
+      }
+    ]
+  }
