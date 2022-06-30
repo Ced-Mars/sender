@@ -38,13 +38,13 @@ try {
         }
         console.log(' [*] Waiting for logs. To exit press CTRL+C');
         channel.bindQueue(q.queue, exchange, "request.hmi", {'publisher' : "sequencerHMI", 'path' : "/sequence/run"});
-        channel.bindQueue(q.queue, exchange, "report.sequencer.hmi", {'publisher': 'buildProcessorHMI'});
+        channel.bindQueue(q.queue, exchange, "report.sequencer.hmi", {'publisher': 'build_processorHMI'});
         channel.bindQueue(q.queue, exchange, "report.sequencer.hmi", {'publisher': 'sequencerHMI'});
         channel.consume(q.queue, function(msg) {
           //console.log(msg);
           if(msg.fields.routingKey == "request.hmi"){
             if(msg.properties.headers.path == "/sequence/run"){
-              channel.publish(exchange, "report.hmi", Buffer.from(JSON.stringify(build_process.buildProcess)), { headers: {publisher : "sequencer", path : "/buildProcess/all", "report_topic": "report.sequencer.hmi"}});
+              channel.publish(exchange, "report.hmi", Buffer.from(JSON.stringify(build_process.buildProcess)), { headers: {publisher : "sequencer", path : "/buildProcess/all", report_topic: "report.sequencer.hmi"}});
               var j = 0;
               var i = 0;
               var json_data_to_send = {};
@@ -56,17 +56,17 @@ try {
                     //Beginning of an action
                     json_data_to_send.uid = build_process.buildProcess[i].uid;
                     json_data_to_send.status = "WAITING";
-                    channel.publish(exchange, 'report.hmi', Buffer.from(JSON.stringify(json_data_to_send)), { headers: {publisher : "sequencer", path : "/buildProcess/status", "report_topic": "report.sequencer.hmi"}});
+                    channel.publish(exchange, 'report.hmi', Buffer.from(JSON.stringify(json_data_to_send)), { headers: {publisher : "sequencer", path : "/buildProcess/status", report_topic: "report.sequencer.hmi"}});
                     if(build_process.buildProcess[i].assets.some(e => e.uid === "human"))
-                      channel.publish(exchange, 'sequencer.request', Buffer.from(JSON.stringify(json_data_to_send)), { headers: {publisher : "sequencer", path : "/sequencer/manipulation", "report_topic": "report.sequencer.hmi"}});
+                      channel.publish(exchange, 'sequencer.request', Buffer.from(JSON.stringify(json_data_to_send)), { headers: {publisher : "sequencer", path : "/sequencer/manipulation", report_topic: "report.sequencer.hmi"}});
                     j+=1;
                   }else if (j == 1){
                     //Success of an action
                     json_data_to_send.uid = build_process.buildProcess[i].uid;
                     json_data_to_send.status = "SUCCESS";
-                    channel.publish(exchange, 'report.hmi', Buffer.from(JSON.stringify(json_data_to_send)), { headers: {publisher : "sequencer", path : "/buildProcess/status", "report_topic": "report.sequencer.hmi"}});
+                    channel.publish(exchange, 'report.hmi', Buffer.from(JSON.stringify(json_data_to_send)), { headers: {publisher : "sequencer", path : "/buildProcess/status", report_topic: "report.sequencer.hmi"}});
                     if(build_process.buildProcess[i].assets.some(e => e.uid === "human"))
-                      channel.publish(exchange, 'sequencer.request', Buffer.from(JSON.stringify(json_data_to_send)), { headers: {publisher : "sequencer", path : "/sequencer/manipulation", "report_topic": "report.sequencer.hmi"}});
+                      channel.publish(exchange, 'sequencer.request', Buffer.from(JSON.stringify(json_data_to_send)), { headers: {publisher : "sequencer", path : "/sequencer/manipulation", report_topic: "report.sequencer.hmi"}});
                     j = 0;
                     i+=1;
                   }else{
